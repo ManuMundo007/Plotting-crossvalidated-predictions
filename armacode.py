@@ -39,9 +39,9 @@ class ARMAmodels(object):
     def cleanData(self, datasize):         
         self.data[self.data.columns[0]] = pd.to_datetime(self.data[self.data.columns[0]], unit='s')
         self.data = self.data.tail(datasize)
-        #self.data = self.data.set_index(self.data.columns[0])
-        #self.ts=self.data[self.data.columns[1]]
-        #self.ts = self.ts.resample(sampling).mean()
+        self.data = self.data.set_index(self.data.columns[0])
+        self.ts=self.data[self.data.columns[1]]
+        self.ts = self.ts.resample(sampling).mean()
         
         #self.ts.head(5)
         #plt.plot(self.ts.to_pydatetime(), self.ts.values)
