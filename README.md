@@ -1,2 +1,3 @@
-"# Plotting-crossvalidated-predictions" 
-"# Plotting-crossvalidated-predictions" 
+"# This is a Repo to keep track of passion projects to apply data science to real world data"
+
+"F. Manuel Mundo
