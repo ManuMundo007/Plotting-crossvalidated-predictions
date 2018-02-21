@@ -1,3 +1,2 @@
-"# This is a Repo to keep track of passion projects to apply data science to real world data"
-
+"# Arma code used for studying btc prices at mit
 "F. Manuel Mundo
